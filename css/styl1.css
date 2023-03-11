@@ -1,0 +1,77 @@
+/* cmmen
+1 contaiare
+2 opacity hover 
+3 section header
+4 sectin pading 
+5 hover effect 1 (left ton right )
+6 hover effect 2 (top to booton ) */
+
+/* 
+1 common styls الأشياء المتكررة 
+2 genral styls 
+2.1 overlay 
+3 sections
+3.0 header section 
+3.1 home section 
+3.2 About section
+3.3 portfoilio section
+3.4 services section
+3.5 prices  section
+3.6 team  section
+3.7 blog  section
+3.8 contact section 
+3.9 footr section 
+ */
+/* --------------------------------------------------------------------------------------- */
+/* geral styls */
+body {
+  font-family: "varela round", sans-serif;
+}
+.hover-opacity {
+  transition: opacity 0.5s; /* css3 */
+}
+.hover-opacity:hover {
+  opacity: 0.7;
+}
+*:not(.listt, .bollet) {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} /* css3 */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: montserrat, sans-serif;
+}
+button {
+  font-family: inherit;
+}
+
+.section-header .section-title {
+  font-size: 35px;
+}
+
+:root {
+  --main-color: #6195ff;
+  --main-color-gry: #999;
+  --moz-color-grys: #333;
+}
+
+/* geral styls */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* pricing  */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* /testimonail  */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ower time  */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* blok */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*/ get in touch */
+
+/* 848 */
+/* ------------------------------------------------------------------------------------------------------------------ */

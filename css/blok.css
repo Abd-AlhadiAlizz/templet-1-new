@@ -1,0 +1,44 @@
+.blok .item {
+  width: 32%;
+  border: solid 0px #e8e8e8;
+}
+.blok img {
+  width: 100%;
+  height: 200px;
+}
+.blok li {
+  margin: 10 30 10 0;
+  color: var(--main-color);
+}
+.blok li {
+  color: var(--main-color);
+}
+
+.blok span {
+  color: #222;
+}
+.blok .item.ver {
+  margin: 0 2%;
+}
+
+.blok .title {
+  font-size: 18px;
+  color: #222;
+  text-align: left;
+}
+.blok .title h3 {
+  margin: 10px 0;
+}
+.blok .title p {
+  font-size: 17px;
+  color: var(--main-color-gry);
+}
+.buttns {
+  width: 82px;
+  height: 40px;
+  background: #fff;
+  border: #999;
+  color: var(--main-color);
+  font-size: 15px;
+}
+/* / cblok */

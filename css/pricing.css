@@ -1,0 +1,61 @@
+.items .item {
+  width: 30%;
+}
+.items .item.b {
+  margin: 0 3%;
+}
+.items .item.v {
+  margin: 0 0 0 2%;
+}
+
+.pricing .item p {
+  padding: 20px 0;
+  font-size: 18px;
+  color: var(--main-color-gry);
+}
+.pricing .item {
+  border: solid 2px #9999993b;
+  padding: 20px 0;
+}
+.pricing .sercl {
+  border: solid 3px #6195ff;
+  width: 140px;
+  height: 140px;
+  padding-top: 33px;
+  margin-bottom: 33px;
+}
+.pricing .sercl p {
+  font-size: 40px;
+  color: #333;
+  font-weight: bold;
+  padding: 0;
+}
+
+.pricing .sercl span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.pricing .item li {
+  line-height: 34px;
+  color: var(--main-color-gry);
+}
+.qwe {
+  padding: 13px;
+  margin: 21px 0;
+  background-color: #fff;
+  border: solid 3px #6195ff;
+  color: var(--main-color);
+  font-size: 16px;
+}
+
+.item:hover .sercl,
+.item:hover p {
+  color: #fff;
+  transition: 1s;
+  transition-delay: 0.2s;
+}
+.item:hover .qwe {
+  background-color: var(--moz-color-grys);
+  transition: 1s;
+}
+/* /pricing  */

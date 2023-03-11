@@ -1,0 +1,70 @@
+/* ------------------------------------------------------------------------------------------------------- */
+/* 3.0 header section */
+
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.contener .logo {
+  width: 40%;
+}
+.contener .nav {
+  width: 60%;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  padding: 30px 15px;
+}
+.nav li a:after,
+.nav li a.activ:after {
+  display: block;
+  content: "";
+  height: 4px;
+  background-color: var(--main-color);
+  transition: 0.5s;
+}
+.nav > li > a:hover:after {
+  width: 100%;
+}
+.nav > li > a.activ:after {
+  width: 100%;
+}
+.nav > li a:after {
+  width: 0;
+}
+
+.nav > li {
+  font-size: 16px;
+}
+.image {
+  width: 20%;
+  margin-top: 20px;
+}
+.nav {
+  text-align: right;
+}
+.dropdoen-menu {
+  background: #6195ff;
+  width: 130px;
+  left: -50%;
+  top: 60%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+  margin-bottom: 30px;
+}
+
+.dropdown:hover .dropdoen-menu {
+  opacity: 1;
+  visibility: visible;
+}
+.dropdoen-menu a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* / header section */

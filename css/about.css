@@ -1,0 +1,28 @@
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* about section  */
+
+.about-item {
+  width: 30%;
+  border: 1px solid #e8e8e8;
+  padding: 50px 20px;
+}
+
+.as {
+  text-decoration: none;
+  color: var(--main-color);
+}
+.about-item .icon {
+  color: var(--main-color);
+}
+.about-item-title {
+  transition: color 0.5s;
+}
+.about-item-desc {
+  line-height: 1.6;
+  color: var(--main-color-gry);
+}
+.about-item:hover .about-item-title {
+  color: #fff;
+}
+/* /about section  */
+/* ------------------------------------------------------------------------------------------------------------------ */

@@ -1,0 +1,34 @@
+.testimonail {
+  background-image: url(../imeg/background/background3.webp);
+  height: 400px;
+  background-attachment: fixed;
+}
+.testimonail .item {
+  height: 100%;
+}
+.item-img img {
+  width: 100px;
+  height: 100px;
+}
+
+.item-img ul {
+  margin: 39px 0 0 35px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+.item-img ul .asd {
+  font-size: 20px;
+}
+.testimonail-item .item-img {
+  margin-left: 150px;
+  margin-top: 65px;
+}
+.testimonail-item .item p {
+  color: white;
+  margin: 33px 0 0 120px;
+  text-align: left;
+  line-height: 23px;
+}
+/* /testimonail  */

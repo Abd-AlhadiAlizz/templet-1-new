@@ -1,0 +1,48 @@
+/* --------------------------------------------------------------------------------------------------- */
+/* 3.1 home section */
+.home {
+  height: 100vh;
+  background-image: url(../imeg/background/b1.webp);
+  background-size: cover; /* css3 */
+}
+
+.overlayy {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.593);
+  top: 0;
+  left: 0;
+}
+.home-cntent {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+}
+.home .title {
+  font-size: 3.5rem;
+}
+
+.home-desk {
+  margin: 25px;
+  letter-spacing: 2px;
+  line-height: 1.5 px;
+}
+.b1,
+.b2 {
+  width: 160px;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.b1 {
+  margin-right: 20px;
+  background-color: #fff;
+  color: black;
+}
+.b2 {
+  background-color: var(--main-color);
+}
+/* 3.1 home section */

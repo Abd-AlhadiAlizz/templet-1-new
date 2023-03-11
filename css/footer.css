@@ -1,0 +1,28 @@
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* foter section */
+.foter-home {
+  background-color: #1c1d21;
+  padding: 40px 0;
+}
+.foter-home .foter-link li {
+  margin-right: 20px;
+}
+.foter-home .foter-link {
+  margin: 20px 0;
+}
+.foter-home .foter-link a {
+  width: 50px;
+  height: 50px;
+  background-color: var(--main-color);
+}
+.foter-home .foter-link i {
+  line-height: 50px;
+}
+
+.ower-tome .time-ifo-textupparcas {
+  color: #999;
+}
+.ower-tome .item-ifo-title {
+  color: #1c1d21;
+}
+/* /foter section */
